@@ -26,7 +26,18 @@ public class OddOrEven {
          *      sant eller falskt(boolean)
          */
 
-        //TODO YOUR CODE HERE!!!   YOUR CODE HERE!!!   YOUR CODE HERE!!!   YOUR CODE HERE!!!   YOUR CODE HERE!!!
+        long resultatA = a % 2;
+        long resultatB = b % 2;
+        long resultatC = c % 2;
+
+        System.out.println("Om svaret blir 0 så är det ett jämnt nummer och svaret 1 för ojämt");
+        System.out.println("Svar :" + resultatA);
+        System.out.println("Talet " + a );
+        System.out.println("Svar :" + resultatB);
+        System.out.println("Talet " + b );
+        System.out.println("Svar :" + resultatC);
+        System.out.println("Talet " + c );
+
 
 
         //TODO BONUS CHALLENGE BELOW!!!  BONUS CHALLENGE BELOW!!!  BONUS CHALLENGE BELOW!!!  BONUS CHALLENGE BELOW!!!

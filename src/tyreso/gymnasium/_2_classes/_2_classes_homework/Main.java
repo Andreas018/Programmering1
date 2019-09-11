@@ -10,8 +10,20 @@ public class Main {
          */
 
         //Create a new Fox-object
+        TalkingFox myFox = new TalkingFox();
 
         //Call the sound()-method ten times
+        String returnedString = myFox.sound();
+        System.out.println(returnedString);
+        System.out.println(returnedString);
+        System.out.println(returnedString);
+        System.out.println(returnedString);
+        System.out.println(returnedString);
+        System.out.println(returnedString);
+        System.out.println(returnedString);
+        System.out.println(returnedString);
+        System.out.println(returnedString);
+        System.out.println(returnedString);
 
         //Create a MyFox-object
 

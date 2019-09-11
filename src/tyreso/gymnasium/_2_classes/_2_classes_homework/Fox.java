@@ -3,7 +3,7 @@ package tyreso.gymnasium._2_classes._2_classes_homework;
 import java.time.LocalDate;
 import java.util.Date;
 
-public class Fox {
+public class    Fox {
 
     //Variables, initializing directly after declaration ( BAD IDEA(tm) )
     String species = "Fox";

@@ -28,6 +28,7 @@ public class SimpleOperators {
         System.out.println("Resultatet borde vara -1");
         System.out.println();
 
+
         // * operatören
         long multResult = (numOne * numTwo);
         System.out.println("Resultatet av multiplikationen av numOne och numTwo är: " + multResult);
@@ -58,8 +59,8 @@ public class SimpleOperators {
         System.out.println(numOne > numTwo);    //false
         //TODO Helklass/modig elev/ofrivilligt offer
         System.out.println("Är numTwo större än numOne?");
-        System.out.println();   //TODO CODE HERE!
+        System.out.println(numTwo > numOne);   //TODO CODE HERE!
         System.out.println("Är numTwo större än numTwo?");
-        System.out.println();   //TODO CODE HERE!
+        System.out.println(numThree >= numTwo);   //TODO CODE HERE!
     }
 }
